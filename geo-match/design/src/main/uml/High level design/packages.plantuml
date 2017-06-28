@@ -1,0 +1,34 @@
+@startuml
+
+title High-level overview
+
+
+package "Client" {
+    [command-line] as LINE
+}
+
+cloud network
+
+node <<concrete layer>>{
+    package "Connector" {
+        [geolocation-connector] as CONN
+    }
+}
+
+node <<abstract layer>>{
+    package "Command" {
+        [commands] as CMD
+    }
+
+    package "Core" {
+        [core] as CORE
+    }
+}
+
+CONN -> CMD
+CMD  -> CORE
+
+LINE <.> network
+network <.> CONN
+
+@enduml

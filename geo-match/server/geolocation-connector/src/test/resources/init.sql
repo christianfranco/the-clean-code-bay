@@ -1,0 +1,8 @@
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('pt','lisbon','1',38.716667,-9.133333);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('pt','porto','1',39.871429,-7.993068);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('pt','setubal','1',38.533333,-8.9);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('us','california','1',35.9041667,-75.6808333);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('us','new georgia','1',34.2372222,-87.1622222);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('us','new jersey','1',39.833851,-74.871826);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('gb','sevenoaks','1',51.266667,0.2);
+insert into WORLD_CITY(COUNTRY, CITY, REGION, LATITUDE, LONGITUDE) values('ca','montreal','1',45.5,-73.583333);
