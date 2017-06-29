@@ -1,0 +1,4 @@
+exclude_paths:
+  - '*IT.java'
+  - test/**/*
+  - '*Test.java'
