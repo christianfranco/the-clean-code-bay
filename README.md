@@ -11,3 +11,4 @@
 
 - JavaScript
   - [Node RESTful API](https://github.com/christianfranco/node-rest-api)
+  - [Data Structure](https://github.com/christianfranco/js-data-structure)
